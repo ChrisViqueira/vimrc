@@ -1,6 +1,8 @@
-colorscheme desert 
 let mapleader = "\<Space>"
-syntax on
+syntax enable
+set background=light
+let g:solarized_termcolors=256
+colorscheme solarized
 set number
 
 nnoremap <Leader>w :w<CR>
