@@ -1,11 +1,13 @@
-let mapleader = "\<Space>"
 syntax enable
-set background=light
+set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
 set number
+set tabstop=4
 
-nnoremap <Leader>w :w<CR>
-nnoremap <Leader>q :q<CR>
 inoremap jk <esc>
-inoremap JK <esc>
+
+nnoremap <C-H> <C-W><C-H>
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
