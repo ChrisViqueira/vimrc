@@ -1,8 +1,11 @@
 " Windows vimrc file, store in $HOME\vimfiles\vimrc
+set undodir=$HOME\vimfiles\.undo\
+set backupdir=$HOME\vimfiles\.backup\
+set directory=$HOME\vimfiles\.swp\
+
 syntax enable
 set background=dark
-let g:solarized_termcolors=256
-colorscheme solarized
+colorscheme desert 
 set number
 set tabstop=4
 
